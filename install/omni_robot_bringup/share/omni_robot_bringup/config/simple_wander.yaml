@@ -1,0 +1,29 @@
+simple_wander_node:
+  ros__parameters:
+    cmd_vel_topic: "cmd_vel_safe"
+    front_topic: "ultrasonic/front"
+    back_topic: "ultrasonic/back"
+    loop_rate_hz: 10.0
+    forward_speed_mps: 0.20
+    reverse_speed_mps: 0.12
+    turn_speed_rads: 0.6
+    obstacle_distance_m: 0.18
+    front_trigger_count: 2
+    back_stop_distance_m: 0.10
+    side_stop_distance_m: 0.12
+    backup_time_s: 0.7
+    turn_time_s: 0.9
+    sensor_timeout_s: 1.0
+    filter_window: 5
+    imu_topic: "imu/data"
+    imu_timeout_s: 1.0
+    tilt_slow_deg: 20.0
+    tilt_stop_deg: 35.0
+    impact_accel_mps2: 12.5
+    impact_cooldown_s: 1.0
+    prefer_turn_dir: "alternate"
+    stop_on_slam_ready: true
+    slam_ready_topic: "/slam_ready"
+    min_run_time_s: 30.0
+    slam_ready_hold_s: 3.0
+    log_debug: true

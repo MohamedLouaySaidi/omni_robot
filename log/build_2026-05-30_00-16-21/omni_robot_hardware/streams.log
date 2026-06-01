@@ -1,0 +1,58 @@
+[0.068s] Invoking command in '/home/robot/omni_robot_ws/build/omni_robot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_hardware -- -j4 -l4
+[0.471s] [  6%] Built target hc_sr04
+[0.478s] [ 12%] Built target tank_drive
+[0.486s] [ 18%] Built target pigpio_client
+[0.516s] [ 25%] Built target imu_node
+[0.675s] [ 31%] Built target obstacle_avoider_node
+[0.706s] [ 37%] Built target range_scan_node
+[0.730s] [ 43%] Built target ultrasonic_perception_node
+[0.750s] [ 50%] Built target open_loop_odom_node
+[0.915s] [ 56%] Built target nav2_goal_sender_node
+[0.951s] [ 62%] Built target simple_wander_node
+[0.951s] [ 68%] Built target frontier_explorer_node
+[0.976s] [ 75%] Built target bt_reactive_explorer_node
+[1.180s] [ 87%] Built target tank_drive_node
+[1.181s] [ 87%] Built target ultrasonic_node
+[1.192s] [ 93%] Built target slam_watchdog_node
+[1.192s] [ 96%] [32mBuilding CXX object CMakeFiles/bt_reactive_explorer_v2_node.dir/src/bt_reactive_explorer_v2_node.cpp.o[0m
+[52.753s] [100%] [32m[1mLinking CXX executable bt_reactive_explorer_v2_node[0m
+[55.504s] [100%] Built target bt_reactive_explorer_v2_node
+[55.586s] Invoked command in '/home/robot/omni_robot_ws/build/omni_robot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_hardware -- -j4 -l4
+[55.654s] Invoking command in '/home/robot/omni_robot_ws/build/omni_robot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/omni_robot_ws/build/omni_robot_hardware
+[55.711s] -- Install configuration: ""
+[55.713s] -- Execute custom install script
+[55.715s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/libhc_sr04.so
+[55.717s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/libpigpio_client.so
+[55.717s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/libtank_drive.so
+[55.718s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/ultrasonic_node
+[55.719s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/imu_node
+[55.721s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/tank_drive_node
+[55.722s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/obstacle_avoider_node
+[55.723s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/range_scan_node
+[55.724s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/ultrasonic_perception_node
+[55.725s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/open_loop_odom_node
+[55.726s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/nav2_goal_sender_node
+[55.727s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/frontier_explorer_node
+[55.729s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/simple_wander_node
+[55.730s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/bt_reactive_explorer_node
+[55.731s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/bt_reactive_explorer_v2_node
+[55.732s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/lib/omni_robot_hardware/slam_watchdog_node
+[55.734s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/include/omni_robot_hardware/hc_sr04.hpp
+[55.735s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/include/omni_robot_hardware/pigpio_client.hpp
+[55.736s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/include/omni_robot_hardware/tank_drive.hpp
+[55.737s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/ament_index/resource_index/package_run_dependencies/omni_robot_hardware
+[55.738s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/ament_index/resource_index/parent_prefix_path/omni_robot_hardware
+[55.740s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/environment/ament_prefix_path.sh
+[55.741s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/environment/ament_prefix_path.dsv
+[55.742s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/environment/path.sh
+[55.743s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/environment/path.dsv
+[55.744s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/local_setup.bash
+[55.746s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/local_setup.sh
+[55.747s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/local_setup.zsh
+[55.748s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/local_setup.dsv
+[55.750s] -- Symlinking: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.dsv
+[55.813s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/ament_index/resource_index/packages/omni_robot_hardware
+[55.814s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/cmake/omni_robot_hardwareConfig.cmake
+[55.815s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/cmake/omni_robot_hardwareConfig-version.cmake
+[55.816s] -- Up-to-date symlink: /home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.xml
+[55.823s] Invoked command in '/home/robot/omni_robot_ws/build/omni_robot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/omni_robot_ws/build/omni_robot_hardware

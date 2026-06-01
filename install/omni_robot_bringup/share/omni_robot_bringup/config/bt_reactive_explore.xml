@@ -1,0 +1,43 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <ReactiveFallback name="root_fallback">
+      <Sequence name="tilt_stop">
+        <TiltUnsafe />
+        <Stop />
+      </Sequence>
+      <Sequence name="impact_recover">
+        <ImpactDetected />
+        <TimedTwist vx="{reverse_speed_mps}" wz="0.0" duration_s="{backup_time_s}" />
+        <TurnInPlace duration_s="{turn_time_s}" />
+      </Sequence>
+      <Sequence name="stuck_recover">
+        <FrontBlockedLong />
+        <TimedTwist vx="{reverse_speed_mps}" wz="0.0" duration_s="{backup_time_s}" />
+        <TurnInPlace duration_s="{spin_time_s}" />
+        <TimedTwist vx="0.0" wz="0.0" duration_s="{wait_time_s}" />
+      </Sequence>
+      <Sequence name="front_blocked_recover">
+        <FrontBlocked />
+        <TimedTwist vx="{reverse_speed_mps}" wz="0.0" duration_s="{backup_time_s}" />
+        <TurnInPlace duration_s="{turn_time_s}" />
+        <!-- <TimedTwist vx="{forward_speed_mps}" wz="0.0" duration_s="{forward_test_time_s}" /> -->
+      </Sequence>
+      <Sequence name="wall_follow_escape">
+        <WallDetected />
+        <Fallback>
+          <Sequence name="random_escape">
+            <ShouldRandomEscape />
+            <TurnInPlace duration_s="{turn_time_s}" />
+          </Sequence>
+          <WallFollow />
+        </Fallback>
+      </Sequence>
+      <Sequence name="drive_if_clear">
+        <Inverter>
+          <FrontBlocked />
+        </Inverter>
+        <DriveForward />
+      </Sequence>
+    </ReactiveFallback>
+  </BehaviorTree>
+</root>

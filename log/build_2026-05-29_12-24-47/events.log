@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000640] (omni_robot_hardware) JobQueued: {'identifier': 'omni_robot_hardware', 'dependencies': OrderedDict()}
+[0.001201] (omni_robot_bringup) JobQueued: {'identifier': 'omni_robot_bringup', 'dependencies': OrderedDict({'omni_robot_hardware': '/home/robot/omni_robot_ws/install/omni_robot_hardware'})}
+[0.002048] (omni_robot_hardware) JobStarted: {'identifier': 'omni_robot_hardware'}
+[0.051365] (omni_robot_hardware) JobProgress: {'identifier': 'omni_robot_hardware', 'progress': 'cmake'}
+[0.054479] (omni_robot_hardware) JobProgress: {'identifier': 'omni_robot_hardware', 'progress': 'build'}
+[0.057062] (omni_robot_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/omni_robot_ws/build/omni_robot_hardware', '--', '-j4', '-l4'], 'cwd': '/home/robot/omni_robot_ws/build/omni_robot_hardware', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robot', 'SSH_CLIENT': '192.168.1.149 44335 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/robot/.vscode-server/cli/servers/Stable-6a49527b96e326fe62fbdb56f60e16877c9aa724/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/robot/omni_robot_ws/install/omni_robot_hardware/lib', 'BROWSER': '/home/robot/.vscode-server/cli/servers/Stable-6a49527b96e326fe62fbdb56f60e16877c9aa724/server/bin/helpers/browser.sh', 'HOME': '/home/robot', 'OLDPWD': '/home/robot', 'TERM_PROGRAM_VERSION': '1.122.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-2a5d6d8d-01b1-464a-b9d3-8ae4396d3dc9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/robot/.vscode-server/cli/servers/Stable-6a49527b96e326fe62fbdb56f60e16877c9aa724/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/robot/.vscode-server/cli/servers/Stable-6a49527b96e326fe62fbdb56f60e16877c9aa724/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/robot/omni_robot_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'robot', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/robot/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/robot/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/robot/.vscode-server/cli/servers/Stable-6a49527b96e326fe62fbdb56f60e16877c9aa724/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b886b2f723.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/robot/omni_robot_ws/install/omni_robot_bringup:/home/robot/omni_robot_ws/install/omni_robot_hardware', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/robot/omni_robot_ws/build/omni_robot_hardware', 'LC_ALL': 'en_US.UTF-8', 'COPILOT_DEBUG_NONCE': 'a5898f057a32f38207699b94a086674d', 'SSH_CONNECTION': '192.168.1.149 44335 192.168.1.109 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/robot/omni_robot_ws/install/omni_robot_bringup:/home/robot/omni_robot_ws/install/omni_robot_hardware:/opt/ros/jazzy'}), 'shell': False}
+[0.098896] (-) TimerEvent: {}
+[0.199681] (-) TimerEvent: {}
+[0.301081] (-) TimerEvent: {}
+[0.404725] (-) TimerEvent: {}
+[0.437740] (omni_robot_hardware) StdoutLine: {'line': b'[  6%] Built target pigpio_client\n'}
+[0.442464] (omni_robot_hardware) StdoutLine: {'line': b'[ 13%] Built target hc_sr04\n'}
+[0.470813] (omni_robot_hardware) StdoutLine: {'line': b'[ 20%] Built target tank_drive\n'}
+[0.506317] (-) TimerEvent: {}
+[0.513972] (omni_robot_hardware) StdoutLine: {'line': b'[ 26%] Built target imu_node\n'}
+[0.606525] (-) TimerEvent: {}
+[0.696089] (omni_robot_hardware) StdoutLine: {'line': b'[ 33%] Built target obstacle_avoider_node\n'}
+[0.708662] (-) TimerEvent: {}
+[0.724586] (omni_robot_hardware) StdoutLine: {'line': b'[ 40%] Built target range_scan_node\n'}
+[0.726468] (omni_robot_hardware) StdoutLine: {'line': b'[ 46%] Built target open_loop_odom_node\n'}
+[0.752255] (omni_robot_hardware) StdoutLine: {'line': b'[ 53%] Built target ultrasonic_perception_node\n'}
+[0.811466] (-) TimerEvent: {}
+[0.912360] (-) TimerEvent: {}
+[0.935774] (omni_robot_hardware) StdoutLine: {'line': b'[ 60%] Built target frontier_explorer_node\n'}
+[0.937926] (omni_robot_hardware) StdoutLine: {'line': b'[ 66%] Built target nav2_goal_sender_node\n'}
+[0.954430] (omni_robot_hardware) StdoutLine: {'line': b'[ 73%] Built target simple_wander_node\n'}
+[0.995891] (omni_robot_hardware) StdoutLine: {'line': b'[ 80%] Built target bt_reactive_explorer_node\n'}
+[1.012634] (-) TimerEvent: {}
+[1.113992] (-) TimerEvent: {}
+[1.120650] (omni_robot_hardware) StdoutLine: {'line': b'[ 86%] Built target slam_watchdog_node\n'}
+[1.140589] (omni_robot_hardware) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/ultrasonic_node.dir/src/ultrasonic_node.cpp.o\x1b[0m\n'}
+[1.146534] (omni_robot_hardware) StdoutLine: {'line': b'[ 96%] Built target tank_drive_node\n'}
+[1.214165] (-) TimerEvent: {}
+[1.314823] (-) TimerEvent: {}
+[1.415496] (-) TimerEvent: {}
+[1.516111] (-) TimerEvent: {}
+[1.616794] (-) TimerEvent: {}
+[1.717460] (-) TimerEvent: {}
+[1.818114] (-) TimerEvent: {}
+[1.918760] (-) TimerEvent: {}
+[2.019371] (-) TimerEvent: {}
+[2.120001] (-) TimerEvent: {}
+[2.220727] (-) TimerEvent: {}
+[2.321398] (-) TimerEvent: {}
+[2.422045] (-) TimerEvent: {}
+[2.522718] (-) TimerEvent: {}
+[2.623369] (-) TimerEvent: {}
+[2.724052] (-) TimerEvent: {}
+[2.824749] (-) TimerEvent: {}
+[2.925482] (-) TimerEvent: {}
+[3.026201] (-) TimerEvent: {}
+[3.126967] (-) TimerEvent: {}
+[3.227712] (-) TimerEvent: {}
+[3.328418] (-) TimerEvent: {}
+[3.429120] (-) TimerEvent: {}
+[3.529894] (-) TimerEvent: {}
+[3.630774] (-) TimerEvent: {}
+[3.731561] (-) TimerEvent: {}
+[3.832289] (-) TimerEvent: {}
+[3.933088] (-) TimerEvent: {}
+[4.033929] (-) TimerEvent: {}
+[4.134808] (-) TimerEvent: {}
+[4.235618] (-) TimerEvent: {}
+[4.336343] (-) TimerEvent: {}
+[4.437038] (-) TimerEvent: {}
+[4.537788] (-) TimerEvent: {}
+[4.638540] (-) TimerEvent: {}
+[4.739291] (-) TimerEvent: {}
+[4.839968] (-) TimerEvent: {}
+[4.940740] (-) TimerEvent: {}
+[5.041466] (-) TimerEvent: {}
+[5.142173] (-) TimerEvent: {}
+[5.242892] (-) TimerEvent: {}
+[5.343644] (-) TimerEvent: {}
+[5.444377] (-) TimerEvent: {}
+[5.545111] (-) TimerEvent: {}
+[5.646058] (-) TimerEvent: {}
+[5.746801] (-) TimerEvent: {}
+[5.847583] (-) TimerEvent: {}
+[5.948406] (-) TimerEvent: {}
+[6.049102] (-) TimerEvent: {}
+[6.149877] (-) TimerEvent: {}
+[6.250777] (-) TimerEvent: {}
+[6.351525] (-) TimerEvent: {}
+[6.452285] (-) TimerEvent: {}
+[6.552980] (-) TimerEvent: {}
+[6.653785] (-) TimerEvent: {}
+[6.755942] (-) TimerEvent: {}
+[6.856773] (-) TimerEvent: {}
+[6.957509] (-) TimerEvent: {}
+[7.058286] (-) TimerEvent: {}
+[7.159060] (-) TimerEvent: {}
+[7.259875] (-) TimerEvent: {}
+[7.360662] (-) TimerEvent: {}
+[7.461373] (-) TimerEvent: {}
+[7.562070] (-) TimerEvent: {}
+[7.662850] (-) TimerEvent: {}
+[7.763635] (-) TimerEvent: {}
+[7.864382] (-) TimerEvent: {}
+[7.965136] (-) TimerEvent: {}
+[8.065911] (-) TimerEvent: {}
+[8.166670] (-) TimerEvent: {}
+[8.267383] (-) TimerEvent: {}
+[8.368104] (-) TimerEvent: {}
+[8.468906] (-) TimerEvent: {}
+[8.569683] (-) TimerEvent: {}
+[8.670485] (-) TimerEvent: {}
+[8.771177] (-) TimerEvent: {}
+[8.871916] (-) TimerEvent: {}
+[8.972677] (-) TimerEvent: {}
+[9.073472] (-) TimerEvent: {}
+[9.174196] (-) TimerEvent: {}
+[9.274954] (-) TimerEvent: {}
+[9.375705] (-) TimerEvent: {}
+[9.476416] (-) TimerEvent: {}
+[9.577170] (-) TimerEvent: {}
+[9.677942] (-) TimerEvent: {}
+[9.778726] (-) TimerEvent: {}
+[9.879416] (-) TimerEvent: {}
+[9.980131] (-) TimerEvent: {}
+[10.080890] (-) TimerEvent: {}
+[10.181609] (-) TimerEvent: {}
+[10.282371] (-) TimerEvent: {}
+[10.383056] (-) TimerEvent: {}
+[10.483852] (-) TimerEvent: {}
+[10.584696] (-) TimerEvent: {}
+[10.685734] (-) TimerEvent: {}
+[10.786507] (-) TimerEvent: {}
+[10.887203] (-) TimerEvent: {}
+[10.987962] (-) TimerEvent: {}
+[11.088739] (-) TimerEvent: {}
+[11.189494] (-) TimerEvent: {}
+[11.259777] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Komni_robot_hardware::UltrasonicNode::\x1b[01;32m\x1b[KUltrasonicNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.260960] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmax(int, int64_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.261538] (omni_robot_hardware) StderrLine: {'line': b'   43 |       \x1b[01;31m\x1b[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())\x1b[m\x1b[K;\n'}
+[11.262024] (omni_robot_hardware) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.263237] (omni_robot_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/algorithm:60\x1b[m\x1b[K,\n'}
+[11.263826] (omni_robot_hardware) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:4\x1b[m\x1b[K:\n'}
+[11.264379] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algobase.h:257:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr const _Tp& std::\x1b[01;32m\x1b[Kmax\x1b[m\x1b[K(const _Tp&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.264907] (omni_robot_hardware) StderrLine: {'line': b'  257 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b)\n'}
+[11.265561] (omni_robot_hardware) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.266117] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algobase.h:257:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.266712] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[11.267262] (omni_robot_hardware) StderrLine: {'line': b'   43 |       \x1b[01;36m\x1b[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())\x1b[m\x1b[K;\n'}
+[11.268406] (omni_robot_hardware) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.269287] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algobase.h:303:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::\x1b[01;32m\x1b[Kmax\x1b[m\x1b[K(const _Tp&, const _Tp&, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.269897] (omni_robot_hardware) StderrLine: {'line': b'  303 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(const _Tp& __a, const _Tp& __b, _Compare __comp)\n'}
+[11.270506] (omni_robot_hardware) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.271184] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algobase.h:303:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.271765] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[Kconst _Tp\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[11.272372] (omni_robot_hardware) StderrLine: {'line': b'   43 |       \x1b[01;36m\x1b[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())\x1b[m\x1b[K;\n'}
+[11.272895] (omni_robot_hardware) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.273846] (omni_robot_hardware) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/algorithm:61\x1b[m\x1b[K:\n'}
+[11.274470] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:5795:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> constexpr _Tp std::\x1b[01;32m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.275040] (omni_robot_hardware) StderrLine: {'line': b' 5795 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp> __l)\n'}
+[11.275608] (omni_robot_hardware) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.276090] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:5795:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.276640] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.277137] (omni_robot_hardware) StderrLine: {'line': b'   43 |       \x1b[01;36m\x1b[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())\x1b[m\x1b[K;\n'}
+[11.277727] (omni_robot_hardware) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.278335] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:5805:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::\x1b[01;32m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp>, _Compare)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.278922] (omni_robot_hardware) StderrLine: {'line': b' 5805 |     \x1b[01;36m\x1b[Kmax\x1b[m\x1b[K(initializer_list<_Tp> __l, _Compare __comp)\n'}
+[11.279548] (omni_robot_hardware) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[11.280066] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_algo.h:5805:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[11.280639] (omni_robot_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[11.281210] (omni_robot_hardware) StderrLine: {'line': b'   43 |       \x1b[01;36m\x1b[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())\x1b[m\x1b[K;\n'}
+[11.281780] (omni_robot_hardware) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.289665] (-) TimerEvent: {}
+[11.390364] (-) TimerEvent: {}
+[11.491031] (-) TimerEvent: {}
+[11.591769] (-) TimerEvent: {}
+[11.692532] (-) TimerEvent: {}
+[11.793340] (-) TimerEvent: {}
+[11.894064] (-) TimerEvent: {}
+[11.994829] (-) TimerEvent: {}
+[12.095595] (-) TimerEvent: {}
+[12.196347] (-) TimerEvent: {}
+[12.297074] (-) TimerEvent: {}
+[12.397805] (-) TimerEvent: {}
+[12.498561] (-) TimerEvent: {}
+[12.599302] (-) TimerEvent: {}
+[12.700014] (-) TimerEvent: {}
+[12.800777] (-) TimerEvent: {}
+[12.901517] (-) TimerEvent: {}
+[13.002376] (-) TimerEvent: {}
+[13.103096] (-) TimerEvent: {}
+[13.203901] (-) TimerEvent: {}
+[13.304636] (-) TimerEvent: {}
+[13.405353] (-) TimerEvent: {}
+[13.506067] (-) TimerEvent: {}
+[13.606815] (-) TimerEvent: {}
+[13.707627] (-) TimerEvent: {}
+[13.808386] (-) TimerEvent: {}
+[13.909075] (-) TimerEvent: {}
+[14.009820] (-) TimerEvent: {}
+[14.110563] (-) TimerEvent: {}
+[14.211340] (-) TimerEvent: {}
+[14.312050] (-) TimerEvent: {}
+[14.412809] (-) TimerEvent: {}
+[14.513564] (-) TimerEvent: {}
+[14.614311] (-) TimerEvent: {}
+[14.715057] (-) TimerEvent: {}
+[14.815847] (-) TimerEvent: {}
+[14.916756] (-) TimerEvent: {}
+[15.017436] (-) TimerEvent: {}
+[15.118335] (-) TimerEvent: {}
+[15.219061] (-) TimerEvent: {}
+[15.319845] (-) TimerEvent: {}
+[15.346750] (omni_robot_hardware) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ultrasonic_node.dir/build.make:76: CMakeFiles/ultrasonic_node.dir/src/ultrasonic_node.cpp.o] Error 1\n'}
+[15.347780] (omni_robot_hardware) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/ultrasonic_node.dir/all] Error 2\n'}
+[15.348800] (omni_robot_hardware) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.356719] (omni_robot_hardware) CommandEnded: {'returncode': 2}
+[15.413556] (omni_robot_hardware) JobEnded: {'identifier': 'omni_robot_hardware', 'rc': 2}
+[15.419964] (-) TimerEvent: {}
+[15.425498] (omni_robot_bringup) JobSkipped: {'identifier': 'omni_robot_bringup'}
+[15.425723] (-) EventReactorShutdown: {}

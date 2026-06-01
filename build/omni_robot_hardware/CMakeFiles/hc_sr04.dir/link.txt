@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libhc_sr04.so -o libhc_sr04.so CMakeFiles/hc_sr04.dir/src/hc_sr04.cpp.o  -Wl,-rpath,/usr/local/lib /usr/local/lib/libpigpio.so /usr/local/lib/libpigpiod_if2.so 

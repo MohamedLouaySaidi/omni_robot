@@ -1,0 +1,24 @@
+[0.063s] Invoking command in '/home/robot/omni_robot_ws/build/omni_robot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_hardware -- -j4 -l4
+[0.436s] [  6%] Built target hc_sr04
+[0.453s] [ 13%] Built target pigpio_client
+[0.463s] [ 20%] Built target tank_drive
+[0.511s] [ 26%] Built target imu_node
+[0.685s] [ 33%] Built target range_scan_node
+[0.692s] [ 40%] Built target obstacle_avoider_node
+[0.732s] [ 46%] Built target ultrasonic_perception_node
+[0.743s] [ 53%] Built target open_loop_odom_node
+[0.896s] [ 60%] Built target nav2_goal_sender_node
+[0.917s] [ 66%] Built target frontier_explorer_node
+[0.936s] [ 73%] Built target simple_wander_node
+[1.020s] [ 76%] [32mBuilding CXX object CMakeFiles/bt_reactive_explorer_node.dir/src/bt_reactive_explorer_node.cpp.o[0m
+[1.113s] [ 83%] Built target slam_watchdog_node
+[1.116s] [ 90%] Built target ultrasonic_node
+[1.135s] [ 96%] Built target tank_drive_node
+[12.878s] [01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:[m[K In constructor ‘[01m[Komni_robot_hardware::ReactiveExploreNode::[01;32m[KReactiveExploreNode[m[K()[m[K’:
+[12.879s] [01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:178:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BT::Tree[m[K’ has no member named ‘[01m[KsubscribeToStatusChange[m[K’
+[12.880s]   178 |     tree_->[01;31m[KsubscribeToStatusChange[m[K(
+[12.881s]       |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.818s] gmake[2]: *** [CMakeFiles/bt_reactive_explorer_node.dir/build.make:76: CMakeFiles/bt_reactive_explorer_node.dir/src/bt_reactive_explorer_node.cpp.o] Error 1
+[25.819s] gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/bt_reactive_explorer_node.dir/all] Error 2
+[25.820s] gmake: *** [Makefile:146: all] Error 2
+[25.829s] Invoked command in '/home/robot/omni_robot_ws/build/omni_robot_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_hardware -- -j4 -l4

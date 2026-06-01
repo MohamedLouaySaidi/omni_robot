@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libpigpio_client.so -o libpigpio_client.so CMakeFiles/pigpio_client.dir/src/pigpio_client.cpp.o  -Wl,-rpath,/usr/local/lib /usr/local/lib/libpigpiod_if2.so 

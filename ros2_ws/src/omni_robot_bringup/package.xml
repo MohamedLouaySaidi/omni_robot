@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>omni_robot_bringup</name>
+  <version>0.1.0</version>
+  <description>
+    Launch files and configuration for the omni_robot platform.
+    Provides reactive_explore_v2.launch.py for autonomous navigation
+    and robot.launch.py for manual teleoperation.
+    </description>
+  <maintainer email="user@todo.todo">Mohamed Louay Saidi</maintainer>
+  <maintainer email="user@todo.todo">Syrine Meksi</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>omni_robot_hardware</exec_depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

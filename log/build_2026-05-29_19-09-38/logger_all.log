@@ -1,0 +1,202 @@
+[0.424s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.425s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa19a0dd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa18d5d90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa18d5d90>>)
+[0.594s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.595s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.596s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.596s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robot/omni_robot_ws'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.706s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ignore_ament_install'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_pkg']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_pkg'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['colcon_meta']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'colcon_meta'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['ros']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'ros'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['cmake', 'python']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'cmake'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extensions ['python_setup_py']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws) by extension 'python_setup_py'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ignore_ament_install'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_pkg']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_pkg'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['colcon_meta']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'colcon_meta'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['ros']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'ros'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['cmake', 'python']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'cmake'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extensions ['python_setup_py']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src) by extension 'python_setup_py'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extensions ['colcon_meta']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extension 'colcon_meta'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extensions ['ros']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_bringup) by extension 'ros'
+[0.729s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/omni_robot_bringup' with type 'ros.ament_cmake' and name 'omni_robot_bringup'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extension 'ignore'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extension 'ignore_ament_install'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extensions ['colcon_pkg']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extension 'colcon_meta'
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extensions ['ros']
+[0.732s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_ws/src/omni_robot_hardware) by extension 'ros'
+[0.737s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_ws/src/omni_robot_hardware' with type 'ros.ament_cmake' and name 'omni_robot_hardware'
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'cmake_args' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'cmake_target' from command line to 'None'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.817s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.818s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.818s] DEBUG:colcon.colcon_core.verb:Building package 'omni_robot_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/omni_robot_ws/build/omni_robot_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/omni_robot_ws/install/omni_robot_hardware', 'merge_install': False, 'path': '/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware', 'symlink_install': False, 'test_result_base': None}
+[0.819s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'omni_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'omni_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/omni_robot_ws/build/omni_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/omni_robot_ws/install/omni_robot_bringup', 'merge_install': False, 'path': '/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.821s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.825s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.825s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware' with build type 'ament_cmake'
+[0.826s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware'
+[0.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/omni_robot_ws/build/omni_robot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_hardware -- -j4 -l4
+[2.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/omni_robot_ws/build/omni_robot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_hardware -- -j4 -l4
+[2.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/omni_robot_ws/build/omni_robot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/omni_robot_ws/build/omni_robot_hardware
+[2.233s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_hardware)
+[2.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/omni_robot_ws/build/omni_robot_hardware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/omni_robot_ws/build/omni_robot_hardware
+[2.245s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware' for CMake module files
+[2.249s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware' for CMake config files
+[2.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_hardware', 'cmake_prefix_path')
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/hook/cmake_prefix_path.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/hook/cmake_prefix_path.sh'
+[2.259s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/lib'
+[2.260s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_hardware', 'ld_library_path_lib')
+[2.261s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/hook/ld_library_path_lib.dsv'
+[2.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/hook/ld_library_path_lib.sh'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/bin'
+[2.265s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/lib/pkgconfig/omni_robot_hardware.pc'
+[2.274s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/lib/python3.12/site-packages'
+[2.275s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/bin'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.dsv'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.sh'
+[2.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.bash'
+[2.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.zsh'
+[2.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/omni_robot_ws/install/omni_robot_hardware/share/colcon-core/packages/omni_robot_hardware)
+[2.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_hardware)
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware' for CMake module files
+[2.295s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware' for CMake config files
+[2.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_hardware', 'cmake_prefix_path')
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/hook/cmake_prefix_path.dsv'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/hook/cmake_prefix_path.sh'
+[2.303s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/lib'
+[2.304s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_hardware', 'ld_library_path_lib')
+[2.304s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/hook/ld_library_path_lib.dsv'
+[2.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/hook/ld_library_path_lib.sh'
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/bin'
+[2.308s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/lib/pkgconfig/omni_robot_hardware.pc'
+[2.309s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/lib/python3.12/site-packages'
+[2.311s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_hardware/bin'
+[2.312s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.dsv'
+[2.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.sh'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.bash'
+[2.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_hardware/share/omni_robot_hardware/package.zsh'
+[2.321s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/omni_robot_ws/install/omni_robot_hardware/share/colcon-core/packages/omni_robot_hardware)
+[2.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_bringup' with build type 'ament_cmake'
+[2.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_bringup'
+[2.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/omni_robot_ws/build/omni_robot_bringup': CMAKE_PREFIX_PATH=/home/robot/omni_robot_ws/install/omni_robot_hardware:/home/robot/omni_robot_ws/install/omni_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_bringup -- -j4 -l4
+[2.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/omni_robot_ws/build/omni_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/robot/omni_robot_ws/install/omni_robot_hardware:/home/robot/omni_robot_ws/install/omni_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_bringup -- -j4 -l4
+[2.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/omni_robot_ws/build/omni_robot_bringup': CMAKE_PREFIX_PATH=/home/robot/omni_robot_ws/install/omni_robot_hardware:/home/robot/omni_robot_ws/install/omni_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/omni_robot_ws/build/omni_robot_bringup
+[2.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_bringup)
+[2.787s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup' for CMake module files
+[2.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/omni_robot_ws/build/omni_robot_bringup' returned '0': CMAKE_PREFIX_PATH=/home/robot/omni_robot_ws/install/omni_robot_hardware:/home/robot/omni_robot_ws/install/omni_robot_bringup:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy /usr/bin/cmake --install /home/robot/omni_robot_ws/build/omni_robot_bringup
+[2.791s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup' for CMake config files
+[2.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_bringup', 'cmake_prefix_path')
+[2.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/hook/cmake_prefix_path.sh'
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup/bin'
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup/lib/pkgconfig/omni_robot_bringup.pc'
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup/lib/python3.12/site-packages'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup/bin'
+[2.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/package.dsv'
+[2.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/package.sh'
+[2.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/package.bash'
+[2.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/package.zsh'
+[2.813s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/omni_robot_ws/install/omni_robot_bringup/share/colcon-core/packages/omni_robot_bringup)
+[2.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(omni_robot_bringup)
+[2.817s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup' for CMake module files
+[2.820s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup' for CMake config files
+[2.824s] Level 1:colcon.colcon_core.shell:create_environment_hook('omni_robot_bringup', 'cmake_prefix_path')
+[2.824s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/hook/cmake_prefix_path.sh'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup/bin'
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup/lib/pkgconfig/omni_robot_bringup.pc'
+[2.830s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup/lib/python3.12/site-packages'
+[2.831s] Level 1:colcon.colcon_core.environment:checking '/home/robot/omni_robot_ws/install/omni_robot_bringup/bin'
+[2.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/package.dsv'
+[2.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/package.sh'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/package.bash'
+[2.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/omni_robot_ws/install/omni_robot_bringup/share/omni_robot_bringup/package.zsh'
+[2.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/omni_robot_ws/install/omni_robot_bringup/share/colcon-core/packages/omni_robot_bringup)
+[2.842s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.843s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.844s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.844s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.846s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/omni_robot_ws/install/local_setup.sh'
+[2.850s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/omni_robot_ws/install/_local_setup_util_sh.py'
+[2.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/omni_robot_ws/install/setup.sh'
+[2.860s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/omni_robot_ws/install/local_setup.bash'
+[2.863s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/omni_robot_ws/install/setup.bash'
+[2.868s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/omni_robot_ws/install/local_setup.zsh'
+[2.870s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/omni_robot_ws/install/setup.zsh'

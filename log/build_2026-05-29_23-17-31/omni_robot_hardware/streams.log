@@ -1,0 +1,29 @@
+[0.063s] Invoking command in '/home/robot/omni_robot_ws/build/omni_robot_hardware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_hardware -- -j4 -l4
+[0.439s] [  6%] Built target hc_sr04
+[0.445s] [ 12%] Built target tank_drive
+[0.455s] [ 18%] Built target pigpio_client
+[0.494s] [ 25%] Built target imu_node
+[0.650s] [ 31%] Built target range_scan_node
+[0.661s] [ 37%] Built target obstacle_avoider_node
+[0.683s] [ 43%] Built target ultrasonic_perception_node
+[0.689s] [ 50%] Built target open_loop_odom_node
+[0.873s] [ 56%] Built target nav2_goal_sender_node
+[0.894s] [ 62%] Built target frontier_explorer_node
+[0.900s] [ 68%] Built target bt_reactive_explorer_node
+[0.907s] [ 75%] Built target simple_wander_node
+[1.119s] [ 81%] Built target slam_watchdog_node
+[1.120s] [ 87%] Built target ultrasonic_node
+[1.128s] [ 93%] [32mBuilding CXX object CMakeFiles/bt_reactive_explorer_v2_node.dir/src/bt_reactive_explorer_v2_node.cpp.o[0m
+[1.129s] [ 96%] Built target tank_drive_node
+[12.922s] [01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_v2_node.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus omni_robot_hardware::ReactiveExploreV2Node::TurnInPlaceAction::[01;32m[KonRunning[m[K()[m[K’:
+[12.922s] [01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_v2_node.cpp:379:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kelapsed[m[K’ was not declared in this scope; did you mean ‘[01m[Kelapsed1[m[K’?
+[12.923s]   379 |       if ([01;31m[Kelapsed[m[K > min_turn_s && (!std::isfinite(r) || r > clear_threshold)) {
+[12.924s]       |           [01;31m[K^~~~~~~[m[K
+[12.924s]       |           [32m[Kelapsed1[m[K
+[12.930s] [01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_v2_node.cpp:372:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kelapsed1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[12.931s]   372 |       double [01;35m[Kelapsed1[m[K = (node->now() - start_time_).seconds();
+[12.932s]       |              [01;35m[K^~~~~~~~[m[K
+[25.812s] gmake[2]: *** [CMakeFiles/bt_reactive_explorer_v2_node.dir/build.make:76: CMakeFiles/bt_reactive_explorer_v2_node.dir/src/bt_reactive_explorer_v2_node.cpp.o] Error 1
+[25.813s] gmake[1]: *** [CMakeFiles/Makefile2:533: CMakeFiles/bt_reactive_explorer_v2_node.dir/all] Error 2
+[25.814s] gmake: *** [Makefile:146: all] Error 2
+[25.822s] Invoked command in '/home/robot/omni_robot_ws/build/omni_robot_hardware' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/robot/omni_robot_ws/build/omni_robot_hardware -- -j4 -l4

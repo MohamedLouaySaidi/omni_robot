@@ -1,0 +1,12 @@
+slam_watchdog_node:
+  ros__parameters:
+    map_topic: "/map"
+    scan_topic: "/scan_ultra"
+    odom_topic: "/odom"
+    ready_topic: "/slam_ready"
+    status_topic: "/slam_status"
+    map_timeout_s: 3.0
+    scan_timeout_s: 1.5
+    odom_timeout_s: 1.0
+    log_period_s: 1.0
+    log_debug: true

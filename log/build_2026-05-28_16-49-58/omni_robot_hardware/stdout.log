@@ -1,0 +1,13 @@
+[  7%] Built target hc_sr04
+[ 15%] Built target pigpio_client
+[ 23%] Built target tank_drive
+[ 30%] Built target imu_node
+[ 38%] Built target obstacle_avoider_node
+[ 46%] Built target range_scan_node
+[ 53%] Built target ultrasonic_perception_node
+[ 61%] Built target open_loop_odom_node
+[ 69%] Built target nav2_goal_sender_node
+[ 76%] Built target frontier_explorer_node
+[ 80%] [32mBuilding CXX object CMakeFiles/simple_wander_node.dir/src/simple_wander_node.cpp.o[0m
+[ 88%] Built target ultrasonic_node
+[ 96%] Built target tank_drive_node

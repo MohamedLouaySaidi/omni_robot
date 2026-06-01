@@ -1,0 +1,10 @@
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus omni_robot_hardware::ReactiveExploreNode::TimedTwistAction::[01;32m[KonRunning[m[K()[m[K’:
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:349:20:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst double elapsed[m[K’
+  349 |       const double [01;31m[Kelapsed[m[K = (node()->now() - start_time_).seconds();
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:337:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kdouble elapsed[m[K’
+  337 |       double [01;36m[Kelapsed[m[K = (node()->now() - start_time_).seconds();
+      |              [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bt_reactive_explorer_node.dir/build.make:76: CMakeFiles/bt_reactive_explorer_node.dir/src/bt_reactive_explorer_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/bt_reactive_explorer_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

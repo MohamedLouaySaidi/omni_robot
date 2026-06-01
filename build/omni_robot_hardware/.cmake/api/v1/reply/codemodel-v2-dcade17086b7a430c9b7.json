@@ -1,0 +1,214 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e2904969b6492acd4844.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "omni_robot_hardware",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_reactive_explorer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_reactive_explorer_node-29b000d93f2af6738629.json",
+					"name" : "bt_reactive_explorer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_reactive_explorer_v2_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_reactive_explorer_v2_node-a2f6875340b2e08e9a41.json",
+					"name" : "bt_reactive_explorer_v2_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "frontier_explorer_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frontier_explorer_node-5017f618e5902dab0fa2.json",
+					"name" : "frontier_explorer_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "hc_sr04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hc_sr04-9566746489f5fb7686b7.json",
+					"name" : "hc_sr04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_node-3ff6f517df41c855df10.json",
+					"name" : "imu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_goal_sender_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_goal_sender_node-f1fe5d76e498e3ed5f27.json",
+					"name" : "nav2_goal_sender_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_avoider_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_avoider_node-635185f2aae31ba89fb9.json",
+					"name" : "obstacle_avoider_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "omni_robot_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-omni_robot_hardware_uninstall-e8a17bf2c84232521a64.json",
+					"name" : "omni_robot_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "open_loop_odom_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-open_loop_odom_node-e7c658546e2a783589ad.json",
+					"name" : "open_loop_odom_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pigpio_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pigpio_client-f261ca18148fad7a7262.json",
+					"name" : "pigpio_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "range_scan_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-range_scan_node-b0c862ffb5d384660e2f.json",
+					"name" : "range_scan_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_wander_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_wander_node-50eacaeecbca20a490c9.json",
+					"name" : "simple_wander_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "slam_watchdog_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-slam_watchdog_node-cf955c6f24155434261c.json",
+					"name" : "slam_watchdog_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tank_drive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tank_drive-cdf434b922f152b42ef4.json",
+					"name" : "tank_drive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tank_drive_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tank_drive_node-be05ba2c806b832f2b5b.json",
+					"name" : "tank_drive_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultrasonic_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultrasonic_node-4d658f8ff56f7d44dba5.json",
+					"name" : "ultrasonic_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ultrasonic_perception_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ultrasonic_perception_node-a85f122e7cfdd55360b9.json",
+					"name" : "ultrasonic_perception_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-447e71501b1a32e309e5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robot/omni_robot_ws/build/omni_robot_hardware",
+		"source" : "/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

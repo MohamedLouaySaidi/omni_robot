@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>omni_robot_hardware</name>
+  <version>0.1.0</version>
+  <description>
+    ROS 2 hardware driver nodes for the omni_robot differential drive platform.
+    Includes HC-SR04 ultrasonic sensing, ADXL345 IMU (I2C), L298N motor control,
+    and the BT Reactive Explorer V2 autonomous navigation node.
+    </description>
+  <maintainer email="user@todo.todo">Mohamed Louay Saidi</maintainer>
+  <maintainer email="user@todo.todo">Syrine Meksi</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <!-- ROS 2 message / interface deps -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <!-- Behaviour Tree framework -->
+  <depend>behaviortree_cpp_v3</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

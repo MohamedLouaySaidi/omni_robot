@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libtank_drive.so -o libtank_drive.so CMakeFiles/tank_drive.dir/src/tank_drive.cpp.o  -Wl,-rpath,/usr/local/lib /usr/local/lib/libpigpiod_if2.so 

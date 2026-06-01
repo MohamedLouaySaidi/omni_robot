@@ -1,0 +1,22 @@
+[  6%] Built target hc_sr04
+[ 13%] Built target pigpio_client
+[ 20%] Built target tank_drive
+[ 26%] Built target imu_node
+[ 33%] Built target range_scan_node
+[ 40%] Built target obstacle_avoider_node
+[ 46%] Built target ultrasonic_perception_node
+[ 53%] Built target open_loop_odom_node
+[ 60%] Built target nav2_goal_sender_node
+[ 66%] Built target frontier_explorer_node
+[ 73%] Built target simple_wander_node
+[ 76%] [32mBuilding CXX object CMakeFiles/bt_reactive_explorer_node.dir/src/bt_reactive_explorer_node.cpp.o[0m
+[ 83%] Built target slam_watchdog_node
+[ 90%] Built target ultrasonic_node
+[ 96%] Built target tank_drive_node
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:[m[K In constructor ‘[01m[Komni_robot_hardware::ReactiveExploreNode::[01;32m[KReactiveExploreNode[m[K()[m[K’:
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:178:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BT::Tree[m[K’ has no member named ‘[01m[KsubscribeToStatusChange[m[K’
+  178 |     tree_->[01;31m[KsubscribeToStatusChange[m[K(
+      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/bt_reactive_explorer_node.dir/build.make:76: CMakeFiles/bt_reactive_explorer_node.dir/src/bt_reactive_explorer_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/bt_reactive_explorer_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

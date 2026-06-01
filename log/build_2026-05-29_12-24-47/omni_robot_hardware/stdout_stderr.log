@@ -1,0 +1,53 @@
+[  6%] Built target pigpio_client
+[ 13%] Built target hc_sr04
+[ 20%] Built target tank_drive
+[ 26%] Built target imu_node
+[ 33%] Built target obstacle_avoider_node
+[ 40%] Built target range_scan_node
+[ 46%] Built target open_loop_odom_node
+[ 53%] Built target ultrasonic_perception_node
+[ 60%] Built target frontier_explorer_node
+[ 66%] Built target nav2_goal_sender_node
+[ 73%] Built target simple_wander_node
+[ 80%] Built target bt_reactive_explorer_node
+[ 86%] Built target slam_watchdog_node
+[ 90%] [32mBuilding CXX object CMakeFiles/ultrasonic_node.dir/src/ultrasonic_node.cpp.o[0m
+[ 96%] Built target tank_drive_node
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:[m[K In constructor ‘[01m[Komni_robot_hardware::UltrasonicNode::[01;32m[KUltrasonicNode[m[K()[m[K’:
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmax(int, int64_t)[m[K’
+   43 |       [01;31m[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())[m[K;
+      |       [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/algorithm:60[m[K,
+                 from [01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:4[m[K:
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:257:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr const _Tp& std::[01;32m[Kmax[m[K(const _Tp&, const _Tp&)[m[K’
+  257 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:257:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kint[m[K’ and ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’})
+   43 |       [01;36m[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())[m[K;
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:303:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr const _Tp& std::[01;32m[Kmax[m[K(const _Tp&, const _Tp&, _Compare)[m[K’
+  303 |     [01;36m[Kmax[m[K(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algobase.h:303:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[Kconst _Tp[m[K’ (‘[01m[Kint[m[K’ and ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’})
+   43 |       [01;36m[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())[m[K;
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/13/algorithm:61[m[K:
+[01m[K/usr/include/c++/13/bits/stl_algo.h:5795:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr _Tp std::[01;32m[Kmax[m[K(initializer_list<_Tp>)[m[K’
+ 5795 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:5795:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+   43 |       [01;36m[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())[m[K;
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:5805:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Compare> constexpr _Tp std::[01;32m[Kmax[m[K(initializer_list<_Tp>, _Compare)[m[K’
+ 5805 |     [01;36m[Kmax[m[K(initializer_list<_Tp> __l, _Compare __comp)
+      |     [01;36m[K^~~[m[K
+[01m[K/usr/include/c++/13/bits/stl_algo.h:5805:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/ultrasonic_node.cpp:43:15:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::initializer_list<_Tp>[m[K’ and ‘[01m[Kint[m[K’
+   43 |       [01;36m[Kstd::max(0, get_parameter("inter_sensor_delay_ms").as_int())[m[K;
+      |       [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ultrasonic_node.dir/build.make:76: CMakeFiles/ultrasonic_node.dir/src/ultrasonic_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:244: CMakeFiles/ultrasonic_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,29 @@
+obstacle_avoider_node:
+  ros__parameters:
+    # Nav2 Jazzy: controller -> cmd_vel_nav -> velocity_smoother -> cmd_vel_smoothed
+    cmd_vel_in_topic: "cmd_vel_smoothed"
+    cmd_vel_fallback_topic: ""
+    # During autonomous nav: hard-stop only. Nav2 handles avoidance via costmaps.
+    disable_ultrasonic: false
+    only_hard_stop: true
+    safe_distance_m: 0.03
+    warning_distance_m: 0.12
+    enforce_cmd_timeout: false
+    cmd_vel_timeout_s: 0.0
+    max_forward_mps: 0.5
+    max_reverse_mps: 0.35
+    max_angular_rads: 1.0
+    tilt_slow_deg: 20.0
+    tilt_stop_deg: 35.0
+    sensor_timeout_s: 2.0
+    enable_blind_recovery: true
+    blind_blocked_timeout_s: 0.6
+    blind_backup_s: 0.6
+    blind_turn_s: 0.8
+    blind_forward_s: 0.8
+    blind_forward_mps: 0.15
+    blind_reverse_mps: 0.12
+    blind_turn_rads: 0.6
+    blind_cooldown_s: 1.0
+    blind_turn_dir: "left"
+    log_debug: true
