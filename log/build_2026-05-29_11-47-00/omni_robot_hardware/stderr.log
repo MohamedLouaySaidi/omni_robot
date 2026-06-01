@@ -1,7 +1,0 @@
-[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:[m[K In constructor ‘[01m[Komni_robot_hardware::ReactiveExploreNode::[01;32m[KReactiveExploreNode[m[K()[m[K’:
-[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:178:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass BT::Tree[m[K’ has no member named ‘[01m[KsubscribeToStatusChange[m[K’
-  178 |     tree_->[01;31m[KsubscribeToStatusChange[m[K(
-      |            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/bt_reactive_explorer_node.dir/build.make:76: CMakeFiles/bt_reactive_explorer_node.dir/src/bt_reactive_explorer_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/bt_reactive_explorer_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

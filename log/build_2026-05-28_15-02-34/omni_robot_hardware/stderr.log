@@ -1,4 +1,0 @@
-[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/frontier_explorer_node.cpp:[m[K In member function ‘[01m[Kstd::vector<omni_robot_hardware::Frontier> omni_robot_hardware::FrontierExplorerNode::[01;32m[Kfind_frontiers[m[K() const[m[K’:
-[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/frontier_explorer_node.cpp:235:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcidx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-  235 |           const int [01;35m[Kcidx[m[K = index(cx, cy);
-      |                     [01;35m[K^~~~[m[K

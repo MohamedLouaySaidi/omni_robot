@@ -1,7 +1,0 @@
-[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus omni_robot_hardware::ReactiveExploreNode::TimedTwistAction::[01;32m[KonRunning[m[K()[m[K’:
-[01m[K/home/robot/omni_robot_ws/ros2_ws/src/omni_robot_hardware/src/bt_reactive_explorer_node.cpp:349:16:[m[K [01;31m[Kerror: [m[Kassignment of read-only variable ‘[01m[Kelapsed[m[K’
-  349 |        [01;31m[Kelapsed = (node()->now() - start_time_).seconds()[m[K;
-      |        [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/bt_reactive_explorer_node.dir/build.make:76: CMakeFiles/bt_reactive_explorer_node.dir/src/bt_reactive_explorer_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:505: CMakeFiles/bt_reactive_explorer_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
