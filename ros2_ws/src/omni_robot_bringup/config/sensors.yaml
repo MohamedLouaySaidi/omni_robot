@@ -3,6 +3,7 @@ ultrasonic_node:
     min_range_m: 0.005
     max_range_m: 2.0
     publish_rate_hz: 10.0
+    stagger_ms: 60
     inter_sensor_delay_ms: 60
     treat_too_close_as_min_range: true
     log_debug: false
